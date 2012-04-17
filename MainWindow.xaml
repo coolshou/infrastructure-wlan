@@ -1,0 +1,16 @@
+﻿<Window x:Class="Infrastructure_Wlan.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Infrastructure WLAN" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" Height="382" Width="438" ResizeMode="NoResize">
+    <Grid>
+        <Button Content="Create" Height="23" HorizontalAlignment="Left" Margin="12,12,0,0" Name="but_create" VerticalAlignment="Top" Width="75" Click="but_create_Click" />
+        <Button Content="Stopp" Height="23" HorizontalAlignment="Left" Margin="93,41,0,0" Name="but_stop" VerticalAlignment="Top" Width="75" Click="but_stop_Click" />
+        <Button Content="Start" Height="23" HorizontalAlignment="Left" Margin="12,41,0,0" Name="but_start" VerticalAlignment="Top" Width="75" Click="but_start_Click" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="174,12,0,0" Name="textBox1" VerticalAlignment="Top" Width="120" />
+        <Button Content="Change SSID" Height="23" HorizontalAlignment="Left" Margin="300,11,0,0" Name="but_ssid" VerticalAlignment="Top" Width="92" Click="but_ssid_Click" />
+        <Button Content="Change Pswd" Height="23" HorizontalAlignment="Left" Margin="300,41,0,0" Name="but_pswd" VerticalAlignment="Top" Width="92" Click="but_pswd_Click" />
+        <PasswordBox Height="23" HorizontalAlignment="Left" Margin="174,41,0,0" Name="passwordBox1" VerticalAlignment="Top" Width="120" />
+        <TextBox Height="261" HorizontalAlignment="Left" Margin="12,70,0,0" Name="textBox2" VerticalAlignment="Top" Width="404" IsReadOnly="True" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto" TextChanged="textBox2_TextChanged" />
+        <Button Content="Info" Height="23" HorizontalAlignment="Left" Margin="93,12,0,0" Name="but_info" VerticalAlignment="Top" Width="75" Click="but_info_Click" />
+    </Grid>
+</Window>
